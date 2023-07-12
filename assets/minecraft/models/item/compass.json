@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/compass_16"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 2}, "model": "tardis:item/gui/map/where_am_i"}
+	]
+}
